@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B86CDB3F-114B-42BD-B204-7EA202E509C2}</ProjectGuid>
+    <ProjectGuid>{28759D80-5A4C-48A4-8B98-BF5D6077096E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CabFare</RootNamespace>
-    <AssemblyName>CabFare</AssemblyName>
+    <RootNamespace>CabCostThing</RootNamespace>
+    <AssemblyName>CabCostThing</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

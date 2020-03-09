@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CabFare")]
+[assembly: AssemblyTitle("CabCostThing")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CabFare")]
+[assembly: AssemblyProduct("CabCostThing")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b86cdb3f-114b-42bd-b204-7ea202e509c2")]
+[assembly: Guid("28759d80-5a4c-48a4-8b98-bf5d6077096e")]
 
 // Version information for an assembly consists of the following four values:
 //

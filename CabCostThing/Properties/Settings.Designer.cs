@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CabFare.Properties
+namespace CabCostThing.Properties
 {
 
 

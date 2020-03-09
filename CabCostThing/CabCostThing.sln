@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabFare", "CabFare.csproj", "{B86CDB3F-114B-42BD-B204-7EA202E509C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabCostThing", "CabCostThing.csproj", "{28759D80-5A4C-48A4-8B98-BF5D6077096E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B86CDB3F-114B-42BD-B204-7EA202E509C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B86CDB3F-114B-42BD-B204-7EA202E509C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B86CDB3F-114B-42BD-B204-7EA202E509C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B86CDB3F-114B-42BD-B204-7EA202E509C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28759D80-5A4C-48A4-8B98-BF5D6077096E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28759D80-5A4C-48A4-8B98-BF5D6077096E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28759D80-5A4C-48A4-8B98-BF5D6077096E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28759D80-5A4C-48A4-8B98-BF5D6077096E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0BE5CAE5-C3C4-46EA-AE73-5FF2EEFBA0A0}
+		SolutionGuid = {A5F05F2F-5FFB-41D3-95E0-6802E8B284F7}
 	EndGlobalSection
 EndGlobal
