@@ -31,6 +31,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.next = new System.Windows.Forms.Button();
             this.country = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.beantwoord = new System.Windows.Forms.Button();
+            this.CorAwnser = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,18 +62,52 @@
             // country
             // 
             this.country.AutoSize = true;
-            this.country.ForeColor = System.Drawing.Color.Yellow;
-            this.country.Location = new System.Drawing.Point(80, 344);
+            this.country.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.country.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.country.Location = new System.Drawing.Point(79, 343);
             this.country.Name = "country";
-            this.country.Size = new System.Drawing.Size(0, 25);
+            this.country.Size = new System.Drawing.Size(0, 32);
             this.country.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(85, 595);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(190, 29);
+            this.textBox1.TabIndex = 3;
+            // 
+            // beantwoord
+            // 
+            this.beantwoord.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.beantwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beantwoord.ForeColor = System.Drawing.Color.Yellow;
+            this.beantwoord.Location = new System.Drawing.Point(85, 468);
+            this.beantwoord.Name = "beantwoord";
+            this.beantwoord.Size = new System.Drawing.Size(190, 100);
+            this.beantwoord.TabIndex = 4;
+            this.beantwoord.Text = "Awnser";
+            this.beantwoord.UseVisualStyleBackColor = false;
+            this.beantwoord.Click += new System.EventHandler(this.beantwoord_Click);
+            // 
+            // CorAwnser
+            // 
+            this.CorAwnser.AutoSize = true;
+            this.CorAwnser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CorAwnser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.CorAwnser.Location = new System.Drawing.Point(79, 395);
+            this.CorAwnser.Name = "CorAwnser";
+            this.CorAwnser.Size = new System.Drawing.Size(0, 32);
+            this.CorAwnser.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(356, 391);
+            this.ClientSize = new System.Drawing.Size(356, 656);
+            this.Controls.Add(this.CorAwnser);
+            this.Controls.Add(this.beantwoord);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.country);
             this.Controls.Add(this.next);
             this.Controls.Add(this.pictureBox1);
@@ -87,6 +124,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button next;
         private System.Windows.Forms.Label country;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button beantwoord;
+        private System.Windows.Forms.Label CorAwnser;
     }
 }
 
